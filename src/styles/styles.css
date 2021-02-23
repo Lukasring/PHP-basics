@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+}
+
+main {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 200px 100px;
+  justify-content: center;
+  row-gap: 16px;
+  padding: 16px 0;
+}
+form > button {
+  grid-column: span 2;
+  justify-self: center;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: green;
+  color: white;
+  outline: none;
+  border: 1px solid black;
+}
+
+.bmi {
+  color: black;
+  font-size: 14px;
+}
+
+.bmi > span {
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+img {
+  margin: auto;
+  margin-top: 30px;
+  width: 80%;
+}
